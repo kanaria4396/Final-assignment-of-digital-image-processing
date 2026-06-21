@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 模型权重 (大文件)
+*.safetensors
+*.bin
+*.ckpt
+*.pth
+*.pt
+
+# 数据集图像
+EditBench/images/
+EditBench/*.jpg
+EditBench/*.png
+
+# 输出结果
+outputs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# HuggingFace Cache
+.cache/
+
+# 考核报告与PPT（不上传）
+ChordEdit考核报告.docx
+ChordEdit考核报告.pdf
+ChordEdit演示PPT.pptx
+chordedit_paper.tex
+generate_report.py
+generate_ppt.py
+
+# 模型权重（大型二进制文件，由用户自行下载）
+*.safetensors
+*.bin
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.onnx
+
+# 生成的PDF
+*.pdf
